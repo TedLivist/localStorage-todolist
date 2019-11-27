@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>New Tab App</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+
+    <style>
+    
+        #clr {
+            display: none;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="small-container">
+       
+        <h1>New Tab App</h1>
+
+        <form>
+            <input id="item" type="text" placeholder="New" required />
+            <button type="submit">Add to List</button>
+        </form>
+
+        <h2>Items</h2>
+        <button id="clr">Clear All</button>
+        <ul></ul>
+        
+        <p></p>
+
+    </div>
+  
+    <script src="storage.js"></script>
+  </body>
+</html>
